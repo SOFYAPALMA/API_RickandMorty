@@ -3,5 +3,4 @@ export interface info{
     pages: number;
     next:  string;
     prev: boolean;
-
 }

@@ -1,3 +1,6 @@
+import { origin } from './origin';
+import { location } from './location';
+
 export interface results{
     id: number;
     name:  string;
@@ -5,6 +8,8 @@ export interface results{
     species: string;
     type: string;    
     gender: string;
+    origin: any;
+    location: any
 }
 
 

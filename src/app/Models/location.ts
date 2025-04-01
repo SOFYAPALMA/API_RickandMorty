@@ -1,4 +1,4 @@
-export interface origin {
+export interface location {
   name: string;
   url: string;
 }

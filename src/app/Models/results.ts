@@ -11,6 +11,6 @@ export interface results{
     origin: origin;
     location: location
 }
-
+// Interfaz para recibir y consultar pagina
 
   

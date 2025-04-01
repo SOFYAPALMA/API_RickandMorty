@@ -9,6 +9,9 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes), 
     provideAnimationsAsync(),
+    //Habilitacion de modulo para solicitudes Http en app.config. importProvidersFrom(HttpClientModule) se utiliza para
+    //importar el HttpClientModule y sus proveedores en un contexto de configuración, 
+    //asegurando que el servicio HttpClient esté disponible para la inyección de dependencias en la app o componente
     importProvidersFrom(HttpClientModule) 
   ]
 };

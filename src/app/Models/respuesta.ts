@@ -6,4 +6,4 @@ export interface respuesta{
     results:  results;
    
 }
-// Interfaz para recibir y consultar pagina
+// Interfaz para recibir y consultar

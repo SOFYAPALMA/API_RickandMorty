@@ -5,4 +5,4 @@ export interface info{
     prev: string;    
 }
 
-// Interfaz para recibir y consultar pagina
+// Interfaz para recibir y consultar
